@@ -1,16 +1,9 @@
-console.log('Loaded!');
-
-//To change the value of main-text div
-
-var element = document.getElementById('main-div');
-element.innerHTML = "New Value";
-
-var img = document.getElementById('madi');
-var marginLeft = 0;
-function moveRight(){
-    marginLeft = marginLeft  + 10;
-    img.margin.marginLeft = marginLeft + 'px';
-}
-img.onclick = function(){
-    var interval = setInterval(moveRight,100);
+// Console code
+var loader = document.getElementById('counter');
+loader.onload = function(){
+    
+    //Render the response in the correct span
+    counter = counter + 1;
+    var span = document.getElementById('times');
+    span.innerHTML = counter.toString();
 };
