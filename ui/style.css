@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
 body {
-    font-family: sans-serif;
+    font-family:'Oswald' ,sans-serif;
     background-color: #eee;
     margin-top: 75px;
 }
@@ -20,9 +20,4 @@ body {
 
 .img-medium {
     height: 200px;
-}
-
-#main-text{
-    color: #888;
-    font-family: 'Oswald' ,sans-serif;
 }
